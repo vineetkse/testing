@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from 'actions';
 
+import 'components/CommentBox.css';
+
 class CommentBox extends Component {
 
     state = { comment : ''};
@@ -18,7 +20,7 @@ class CommentBox extends Component {
 
     render() {
         return(
-            <div>
+            <div className="commentbox">
                 <form onSubmit={this.handleSubmit}>
                     <h4>Add a comment</h4>
                     <textarea onChange={this.handleChange} value={this.state.comment}/>

@@ -1,0 +1,29 @@
+.commentbox {
+    width: 400px;
+}
+
+.commentbox form, textarea, h4 {
+    width: 100%;
+}
+
+.commentbox textarea {
+    height: 100px;
+    border: 1px solid #0099CC;
+    box-shadow: 0px 1px 1px #999999;
+}
+
+.commentbox button {
+    background: #009999;
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    color: aliceblue;
+    box-shadow: 0px 2px 2px #333333;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.commentbox button:hover {
+    box-shadow: 0px 0px 0px #333333;
+}
